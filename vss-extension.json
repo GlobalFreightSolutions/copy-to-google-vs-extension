@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "copy-files-to-google-buckets",
   "publisher": "GlobalFreightSolutionsLtd",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "name": "Copy Files to Google Buckets",
   "description": "Will copy specified files to google cloud storage buckets",
   "public": true,

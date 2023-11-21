@@ -51,6 +51,7 @@ clearDestination && !destinationDirectory && console.warn(
       })
       console.log(`Uploaded ${path}!`)
     } catch (error) {
+      console.log(error)
       tl.setResult(tl.TaskResult.SucceededWithIssues, 'Some files were not successfully uploaded', false)
     }
   }))
